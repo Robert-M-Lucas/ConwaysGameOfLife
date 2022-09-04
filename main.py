@@ -10,7 +10,7 @@ else:
     im = Image.open(image_path)
     WIDTH, HEIGHT = im.width, im.height
 
-CELL_SIZE = 7
+CELL_SIZE = 12
 PADDING = 1
 
 FRAMERATE = 0

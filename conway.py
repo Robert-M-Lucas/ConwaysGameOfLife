@@ -1,6 +1,6 @@
-def update_board(board):
-    WRAPPING = False
+WRAPPING = False
 
+def update_board(board):
     new_board = [[False for _ in range(len(board[0]))] for _ in range(len(board))]
 
     neighbours = ((-1, -1),
